@@ -1,0 +1,783 @@
+
+*
+{
+   margin: 0;
+   padding: 0;
+margin-left: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.flex_nav
+{
+background-color:#333333;
+position: sticky;
+top:0;
+width: 100%;
+height: 65px;
+border-radius: 7px;
+}
+.flex_nav img
+{
+    width: 60px;
+    height: 55px;
+  top: -4;
+   border-radius: 5px;
+    background-color: rgb(254, 253, 253);
+
+}
+.flex_nav a
+{
+
+    float :left;
+    margin-right: 2px;
+ padding-top: 5px;
+   
+    justify-content: space-between;
+}
+
+.flex_nav a.right
+{
+    float:right;
+}
+.flex_nav img.left
+{
+    width: 85px;
+    height: 55px;
+
+  border-radius: 5px;
+    margin:0px 5px 5px 10px ;
+
+}
+
+.main_container
+{
+width: 50%;
+}
+
+.sidebar
+{
+    clear: both;
+    width: 280px;
+    height: 500px;
+    background-color:#F2F3F7;;
+    overflow: auto;
+    float: left;
+    margin-left: 80px;
+    top: 66px; 
+    position:sticky;
+    padding-top: 66px;
+    
+}
+
+.sidebar a img{
+border-radius: 100%;
+ margin: 30px 60px 25px 77px;
+}
+
+.sidebar h2{
+    margin-left: 77px;
+}
+
+.sidebar h6.inline{
+    /*  */
+    display: inline;
+} 
+
+.tinline
+{
+    margin:15px 15px 5px 50px;
+}
+
+#colorblue
+{
+    color: #2C98F0;
+}
+
+
+.personal
+{
+    margin: 20px 80px 25px 100px;
+    font-size: 14px;
+}
+
+.personal a p
+{
+    margin-bottom: 25px;
+    color: #5b5959;
+}
+
+.personal a p.colorchange
+{
+    color: #2C98F0;
+    text-decoration: underline;
+}
+
+.personal a p.underline:hover{
+    text-decoration: underline solid #2C98F0;
+}
+
+a
+{
+    text-decoration: none;
+}
+footer p
+{
+    font-size: 14px;
+    color: #918e8e;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    }
+
+.inline2
+{
+    display: inline;
+}
+#inli
+{
+margin-top: 10px;
+    color: #2C98F0;
+    font-size: 14px;
+}
+footer p.thirdp
+{
+   
+    margin-left: 40px;
+    margin-right: 40px;
+    display: inline-block;
+    /* because anchor tag is default inline so i put block */
+}
+
+footer p a
+{
+display: block;
+}
+
+
+
+.container
+{
+    margin-left: 363px;
+    width:982px;
+    height: 8000px;
+    background-color: #FFFFFF;
+    
+}
+
+.main_container .container .inline4 p
+{
+    display: inline-block;
+    padding-top: 120px;
+}
+
+ #ab {
+   
+    font-size:10px ;
+    color: #918e8e;
+   
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#us {
+    
+    font-size:10px ;
+    color: #918e8e;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.main_container .container .inline5 h2
+{
+    display: inline-block;
+    padding-top:20px ;
+}
+
+#who
+{
+    padding-left: 33px;
+   
+}
+#am,#ii
+{
+    padding-left: 10px;
+}
+
+.info
+{
+    color: #918e8e;
+    padding-top: 50px;
+    font-size: 17px;
+    padding-left: 33px;
+    padding-right: 60px;
+    line-height: 27px; /* Font size + desired space (16px + 10px) */
+}
+strong{
+    color: rgb(5, 4, 4);
+}
+
+.pinfo
+{
+    color: #918e8e;
+    padding-top: 25px;
+    font-size: 17px;
+    padding-left: 33px;
+    padding-right: 60px;
+    line-height: 27px;
+}
+
+/* .inline6
+{
+    display: inline;
+} */
+
+.boxes
+{
+    display: flex;
+    margin-top: 50px;
+    
+}
+ .box1
+{
+    width: 180px;
+    height: 140px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    border-bottom: 2px solid rgb(5, 113, 21);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.5); 
+    /* x y shadowradius color */
+}
+
+.box2
+{
+    width: 180px;
+    height: 140px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    border-bottom: 2px solid rgb(212, 4, 4);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+   
+}
+
+.box3
+{
+    width: 180px;
+    height: 140px;
+    background-color: #FFFFFF;
+   margin-left: 50px;
+   border-bottom: 2px solid rgb(220, 242, 54);
+   box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+}
+
+
+.box4
+{
+    width: 180px;
+    height: 140px;
+    background-color: #FFFFFF;
+   margin-left: 50px;
+   border-bottom: 2px solid rgb(28, 12, 205);
+   box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+}
+
+.boxtext
+{
+    padding-left: 40px;
+    padding-top: 35px;
+}
+
+.box1 img{
+    height: 50px;
+    width: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.box2 img{
+    height: 40px;
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
+
+.box3 img,.box4 img{
+    height: 45px;
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+    
+}
+
+.adv
+{
+    height: 240px;
+    width :870px;
+    background-color: #F9BF3F;
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+
+.adv p
+{
+    font-size: 35px;
+}
+#p11
+{
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+#p12
+{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+#p13
+{
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.whoo p
+{
+    word-spacing: 9px;
+    font-size: 15px;
+    color: #918e8e;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+
+.here h2
+{
+    word-spacing: 10px;
+    padding-left: 50px;
+    padding-top: 25px;
+
+}
+
+.here1 h2
+{
+    word-spacing: 2px;
+    padding-left: 50px;
+    padding-top: 15px;
+   
+
+}
+
+.againboxes
+{
+    display: flex;
+    margin-top: 200px;
+}
+
+.againboxes1
+{
+    display: flex;
+    margin-top: 90px;
+}
+
+.againboxes .abox1,.againboxes1 .abox1
+{
+    margin-left: 50px;
+    height: 250px;
+    width: 253px;
+    background-color: #FFFFFF;
+    display: block;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.5);
+    border-bottom: 2px solid blue;
+}
+.againboxes .abox2,.againboxes1 .abox2
+{
+    margin-left: 50px;
+    height: 250px;
+    width: 253px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.5);
+    border-bottom: 2px solid red;
+}
+.againboxes .abox3,.againboxes1 .abox3
+{
+    margin-left: 50px;
+    height: 250px;
+    width: 253px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0,0,0,0.5);
+    border-bottom: 2px solid yellow;
+}
+.againboxes  .aboxtext0,.againboxes1  .aboxtext0
+{
+    margin-left: 42px;
+    /* padding-top: 25px; */
+}
+.againboxes .aboxtext1,.againboxes1 .aboxtext1
+{
+    margin-left: 80px;
+}
+.againboxes .aboxtext2,.againboxes1 .aboxtext2
+{
+    margin-left: 70px;
+}
+.againboxes .abox1 img,.againboxes1 .abox1 img
+{
+    height: 150px;
+    width: 150px;
+    padding-left: 45px;
+    margin-top: -70px;
+    padding-bottom: 5px;
+    
+}
+.againboxes .abox2 img,.againboxes1 .abox2 img
+{
+    height: 105px;
+    width: 90px;
+    padding-left: 80px;
+    margin-top: -45px;
+    padding-bottom: 25px;
+}
+
+.againboxes .abox3 img,.againboxes1 .abox3 img
+{
+    height: 98px;
+    width: 98px;
+    padding-left: 82px;
+    margin-top: -45px;
+    padding-bottom: 35px;
+}
+
+.againboxes p,.againboxes1 p
+{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    line-height: 30px;
+    color: #918e8e;
+    
+}
+
+
+
+
+.container .myyy p.speciality
+{
+    display: inline;
+    font-size: 13px;
+  
+
+}
+
+.container .myyy{
+    padding-left: 50px;
+    padding-top: 100px;
+color: #918e8e;
+}
+
+#sp
+{
+    padding-left: 12px;
+}
+
+
+.container .mskill p.skilll
+{
+    display: inline;
+}
+
+.container .mskill
+{
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 900;
+}
+/* 
+.speciality
+{
+   
+    word-spacing: 2px;
+    color: #918e8e;
+    margin-left: 50px;
+    
+} */
+
+
+.bars
+{
+    width: 900px;
+   padding-left: 30px;
+    padding-top: 60px;
+   
+}
+
+.edu
+{
+    padding-left: 50px;
+    padding-top: 100px;
+    color: #918e8e;
+    font-size: 14px;
+}
+
+.educ
+{
+    padding-left: 52px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* .education a
+{
+    height: 70px;
+    width: 900px;
+  
+    padding-left: 50px;
+}
+
+.education a p
+{
+    padding-left: 50px;
+} */
+.education
+{
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 70px;
+    
+}
+
+.acbox {
+   display: block;
+   width: 900px;
+   height: 65px;
+   margin-top: 15px;
+   margin-right: 15px;
+   color: #333333;
+   background-color: #F2F3F7;
+   
+    
+}
+
+
+.acbox p
+{
+    padding-left: 25px;
+    padding-top: 25px;
+    
+}
+.allexperiece
+{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.myexperience
+{
+    width: 900px;
+    height: 250px;
+    margin-top: 20px;
+    background-color:#F2F3F7 ;
+}
+.fed
+{
+    font-size: 23px;
+    font-weight: 800;
+    padding-left: 25px;
+    padding-top: 30px;
+    display: inline-block;
+    color: black;
+    padding-right: 15px;
+}
+.datee
+{
+    font-size: 23px;
+    color: #918e8e;
+}
+.inline8
+{
+    display: inline;
+}
+
+.parag
+{
+    font-size: 21px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 50px;
+    color: #918e8e;    
+    line-height: 34px;
+}
+
+
+ .container .myworkk .imginline1
+{
+    
+    display: inline;
+    height: 370px;
+    width: 420px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+.container .myworkk2 .imginline2
+{
+    
+    display: inline;
+    height: 370px;
+    width: 420px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.loadmore
+{
+    display: block;
+    height: 45px;
+    width: 893px;
+    background-color: #2C98F0;
+    margin-left: 50px;
+   text-align: center;
+   padding-top: 25px;
+   margin-top: 25px;
+
+
+}
+
+.blogs .blogimg
+{
+    padding-top: 70px;
+    height: 170px;
+    width: 270px;
+    display: inline;
+    padding-left: 50px;
+}
+
+/* .blogsdis
+{
+    display: inline;
+} */
+
+
+.blogsdis
+{
+    display: flex;
+    margin-top: 10px;
+   
+    
+}
+.boxbl1 
+{
+   
+    width: 270px;
+    height: 270px;
+    margin-left: 51px;
+   
+}
+.boxbl1 .againdate
+{
+    
+    font-size: 12px;
+    color: #918e8e;
+    word-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.boxbl1 .disheading
+{
+    font-size: 20px;
+    color: #030000;
+    font-weight: 400;
+    word-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+.boxbl1 .desp
+{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 25px;
+    color: #918e8e;
+    padding-top: 20px;
+}
+
+
+.infoo
+{
+    height: 100px;
+    width: 100px;
+    background-color: #F2F3F7;
+}
+
+.inline10 {
+    display: inline-block;
+    vertical-align: middle; /* This aligns the elements vertically in the middle */
+    margin-right: 10px; /* Adds space between the elements */
+}
+.lastinfo
+{
+    float: left;
+padding-left: 50px;
+margin-top: 50px;
+}
+.hello
+{
+    color: #2C98F0;
+}
+.contacting
+{
+padding-bottom: 10px;
+}
+
+
+.formm
+{
+    float: right;
+    margin-top: 50px;
+    
+
+}
+.fname,.subject,.email
+{
+    height: 60px;
+    width: 400px;
+    background-color: #F2F3F7;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.message
+{
+    
+    height: 100px;
+    width: 400px;
+    background-color: #F2F3F7;
+    border: none;
+    padding-left: 20px;  
+    margin-bottom: 20px;
+}
+.submit
+{
+    height: 40px;
+    width: 150px;
+    background-color: #2C98F0;
+    border: none;
+    padding-left: 15px;   margin-bottom: 40px;
+}
